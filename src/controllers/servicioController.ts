@@ -33,7 +33,7 @@ export  const getServicios = async (req: Request, res: Response)=>{
         //devuelve todo la informacion de servicio con el ucuario que lo creo
         const servicios = await ServicioModel.find().populate({
             path: "usuario", 
-            select: "nombre,numeroDocumento, email"
+            select: "nombre numeroDocumento email"
         });
         res.json({
             ok: true,
