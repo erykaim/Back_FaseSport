@@ -9,7 +9,7 @@
   "scripts": {
   
     
-  "start": "node app.js",
+  "start": "node dist/app.js",
   
     
   "start:dev": "nodemon dist/app.js",
