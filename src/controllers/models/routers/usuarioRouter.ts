@@ -8,7 +8,7 @@ import validateJWT from "../../../middelwares/validateJwt";
 
 // path : "/"= esto es ruta del path
 const router = Router();
-//aca esta ruta iria al controlador de cliente 
+//aca esta ruta iria al controlador de clientessss
 router.post("/",
     // validateJWT,  si se coloca no se puede registrar el usuario
     [
