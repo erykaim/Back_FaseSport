@@ -8,7 +8,7 @@ export const crearServicios = async (req: CustomRequest , res:Response) => {
     console.log (" id del usuario registardo",id);
     try {
         //console.log(req);
-        //console.log(body);
+        //console.log(body);,
 
         const servicioNuevo = new ServicioModel({usuario: id, ...body});
         const servicioCreado = await servicioNuevo.save();
