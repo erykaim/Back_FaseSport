@@ -2,7 +2,7 @@
 import { Router } from "express";
 import { check } from "express-validator";
 import { validateFields } from "../../../middelwares/validar-campos";
-import { crearUsuario, deleteUsuarios, getUnUsuarios, getUsuarios, updateusuario, updateusuarios } from "../../usuarioController";
+import { crearUsuario, deleteUsuarios, getUnUsuarios, getUsuarios, updateusuarios } from "../../usuarioController";
 import validateJWT from "../../../middelwares/validateJwt";
 
 
